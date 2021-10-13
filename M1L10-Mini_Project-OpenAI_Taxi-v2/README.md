@@ -24,4 +24,4 @@ OpenAI Gym [defines "solving"](https://gym.openai.com/envs/Taxi-v1/) this task a
 ### My approach and score
 I have implemented both SARSA and Q-learning (aka SARSAMAX) methods; when one is executed, the other must be annotated (#).
 
-Both methods works quite similar and, with hyperparameters indicated in the code, lead to a best_avg_reward > 9.1, as required by UDACITY Mini Project target but below the score (9.7) OpenAI fixes to consider the task solved.
+Both methods work quite similar and, with hyperparameters indicated in the code, lead to a best_avg_reward > 9.1, as required by UDACITY Mini Project target but below the score (9.7) OpenAI fixes to consider the task solved.
