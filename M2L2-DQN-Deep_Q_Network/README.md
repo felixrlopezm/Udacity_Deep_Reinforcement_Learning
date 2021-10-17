@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/10624937/42135612-cbff24aa-7d12-11e8-9b6c-2b41e64b3bb0.gif "Trained Agent"
+[image1]: Agent-DQN-32nodes-2k_episodes.png "training log"
 
 # Deep Q-Network (DQN)
 
@@ -10,16 +10,18 @@ In this exercise, I implemented a Deep Q-Learning to solve OpenAI Gym's LunarLan
 
 The folder contains three files:
 +	Deep_Q_Network.ipynb: a Jupyther notebook managing the whole process.
-+	Dqn_agent.py: agent class definition; replay buffer definition; the task here was to finish the learn method; I followed the same implementation than Udacity provided solution
++	Dqn_agent.py: agent class definition; replay buffer definition; the task here was to finish the learn method; I applied the same implementation than Udacity provided in the solution
 +	model.py: the task here was to define the neural network architecture that maps states to action values (Q-network); I implemented a Q-Network built with a fully connected neural network: three linear layers; hidden layers with 32 nodes (Udacity solution was 64 but I prefered a lighter version just to check the agent was able to learn; reLu activation function applied to the first two layers
 
 ### Learning phase
 The agent was trained for 2000 episodes according to the following log:
-[image]:"/Agent-DQN-32nodes-2k_episodes.png"
 
-### Results
+![Learnig log][image1]
 
-![Trained Agent][image1]
+### Trained agent
+Trained agent is stored in the file: checkpoint-32nodes-2k_episodes-cpu.pth
+
+To see the performance of the trained agent, load the checkpoint in the local Q-networt (cpu; no cuda) with code at step 4 of the Jupyter Notebook
 
 ### Resources
 
