@@ -19,9 +19,9 @@ The agent was trained for 2000 episodes according to the following log:
 ![Learnig log][image1]
 
 ### Trained agent
-Trained agent is stored in the file: checkpoint-32nodes-2k_episodes-cpu.pth
+Trained agent is stored in the files: checkpoint-32nodes-2k_episodes-cpu.pth (cpu version); checkpoint-32nodes-2k_episodes-cuda.pth (cuda version)
 
-To see the performance of the trained agent, load the checkpoint in the local Q-networt (cpu; no cuda) with code at step 4 of the Jupyter Notebook
+To see the performance of the trained agent, load the appropriate checkpoint (cpu o cuda) in the local Q-networt with code at step 4 of the Jupyter Notebook
 
 ### Resources
 
