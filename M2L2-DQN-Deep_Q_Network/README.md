@@ -15,7 +15,7 @@ The folder contains three files:
 
 ### Learning phase
 The agent was trained for 2000 episodes according to the following log:
-[image]("/Agent-DQN-32nodes-2k_episodes.png")
+[image]:"/Agent-DQN-32nodes-2k_episodes.png"
 
 ### Results
 
