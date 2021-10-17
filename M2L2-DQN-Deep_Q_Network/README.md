@@ -6,11 +6,16 @@
 
 ### Instructions
 
-In this exercise, you will implement Deep Q-Learning to solve OpenAI Gym's LunarLander environment.  To begin, navigate to the `exercise/` folder, and follow the instructions in `Deep_Q_Network.ipynb`.
+In this exercise, I implemented a Deep Q-Learning to solve OpenAI Gym's LunarLander-v2 environment.
 
-(_Alternatively, if you'd prefer to explore a complete implementation, enter the `solution/` folder, and run the code in `Deep_Q_Network_Solution.ipynb`._)
+The folder contains three files:
++	Deep_Q_Network.ipynb: a Jupyther notebook managing the whole process.
++	Dqn_agent.py: agent class definition; replay buffer definition; the task here was to finish the learn method; I followed the same implementation than Udacity provided solution
++	model.py: the task here was to define the neural network architecture that maps states to action values (Q-network); I implemented a Q-Network built with a fully connected neural network: three linear layers; hidden layers with 32 nodes (Udacity solution was 64 but I prefered a lighter version just to check the agent was able to learn; reLu activation function applied to the first two layers
 
-After you are able to get the code working, try to change the parameters in the notebook, to see if you can get the agent to train faster!  You may also like to implement prioritized experience replay, or use it as a starting point to implement a Double DQN or Dueling DQN!
+### Learning phase
+The agent was trained for 2000 episodes according to the following log:
+[image]("Agent-DQN-32nodes-2k_episodes.png")
 
 ### Results
 
