@@ -64,7 +64,7 @@ With the learning algorithm chosen for the smart agent (vanilla DQN algorithm im
 
 The plot shows that training spans for **549** episodes until the agent gets an average score of 13.0. After that, it begins to show an **asymptotic behavior** around a score of 16.5, starting around episode 800, with peaks and valleys, until the end of the training processm, at episode 2000. The maximum score record in this part of the training is **17.48** at episode **1482**.
 
-Note that the weigths of the neural network of the action-value function approximator at that maximum-score episode are saved in the file `banana_collector_DQN_agent.pth.` and will be used to feed the action-value function of the trained agent.
+Note that the weigths of the neural network of the action-value function approximator at that maximum-score episode are saved in the file `banana_collector_DQN_agent.pth` and will be used to feed the action-value function of the trained agent.
 
 
 ## Ideas for improving the algorithm of the smart agent
