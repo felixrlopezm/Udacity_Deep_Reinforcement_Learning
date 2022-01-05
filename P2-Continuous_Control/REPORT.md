@@ -86,10 +86,7 @@ With the learning algorithm chosen for the smart agent and the hyperparameters l
 Figure 1: general view              |  Figure 2: detail
 :----------------------------------:|:-------------------------:
 !
-!<img src='./aux_items/Learning_Process-1.png' width='500' />  | ![Learning Process detail][image2]
-
-<img src='./aux_items/Learning_Process-1.png' width='500' />
-
+!![Learning Process general][image1]  | ![Learning Process detail][image2]
 
 The plot of the learning process shows that the algorithm learns smoothly and with a progressive growth rate until closed to episode 100. From that point, the learning process enters in a stable learning plateau with an average score of some 37.5 points and a maximum value of 38.10 points at episode 205. The plot shows that the plateau behavior spans (at least) until episode 400, at which time the learning algorithm was forced to stop.
 
@@ -101,7 +98,7 @@ The weights of the neural network of the action-value function approximation at 
 ## Ideas for future work
 In my opinion, the smart agent built with the DDPG algorithm and tuned with the listed hyperparameters has little room for improvement. Therefore, it is worth considering whether another type of Deep Reinforcement Learning algorithm will have better performance in terms of stability of the learning process, speed of the learning process or maximum score of the trained agent.
 
-To that end, some alternative algorithm for continuous control tasks are:
+To that end, some alternative algorithms for continuous control tasks are:
 + [Proximal Policy Optimization (PPO)](https://arxiv.org/pdf/1707.06347.pdf)
 + [Trust Region Policy Optimization (TRPO)](https://arxiv.org/pdf/1502.05477.pdf)
 + [Distributed Distributional Deterministic Policy Gradients (D4PG)](https://openreview.net/pdf?id=SyZipzbCb)
