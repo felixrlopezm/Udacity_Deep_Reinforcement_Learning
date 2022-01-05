@@ -1,7 +1,7 @@
 [//]: # (Image References)
 
-[image1]: ./aux_items/Learning_Process-1.gif "Learning Process: general view"
-[image2]: ./aux_items/Learning_Process-2.gif "Learnig Process: detail"
+[image1]: ./aux_items/Learning_Process-1.png "Learning Process: general view"
+[image2]: ./aux_items/Learning_Process-2.png "Learnig Process: detail"
 
 # Technical report on Project 2: Continuous Control
 
@@ -82,8 +82,6 @@ The hyperparameter tweaking process reveled the following:
 ## Smart agent performance
 
 With the learning algorithm chosen for the smart agent and the hyperparameters listed in the previous section, the typical learning process of the agent is shown in the figures below (general view until 400 episodes and detailed view zoomed at 150 episodes)
-
-<img src='./aux_items/Learning_process-1.png' width='500' />
 
 Figure 1: general view              |  Figure 2: detail
 :----------------------------------:|:-------------------------:
